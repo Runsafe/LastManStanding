@@ -1,10 +1,8 @@
 name: LastManStanding
 main: no.runsafe.lastmanstanding.LastManStanding
 version: 1.0.@BUILD@
-authors: []
-depend: []
-description:
+author: Kruithne
+description: Last Man Standing mini-game.
 commands:
-  something:
-    description:
-    aliases: []
+  lms:
+    description: Last Man Standing commands
