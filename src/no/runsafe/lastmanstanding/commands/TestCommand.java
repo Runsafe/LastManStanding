@@ -1,11 +1,11 @@
 package no.runsafe.lastmanstanding.commands;
 
 import no.runsafe.framework.api.IScheduler;
-import no.runsafe.framework.api.command.AsyncCommand;
-import no.runsafe.framework.api.command.ICommandExecutor;
 import no.runsafe.framework.api.command.argument.IArgumentList;
+import no.runsafe.framework.api.command.player.PlayerAsyncCommand;
+import no.runsafe.framework.api.player.IPlayer;
 
-public class TestCommand extends AsyncCommand
+public class TestCommand extends PlayerAsyncCommand
 {
 	protected TestCommand(IScheduler scheduler)
 	{
@@ -13,7 +13,7 @@ public class TestCommand extends AsyncCommand
 	}
 
 	@Override
-	public String OnAsyncExecute(ICommandExecutor executor, IArgumentList parameters)
+	public String OnAsyncExecute(IPlayer executor, IArgumentList parameters)
 	{
 		return "Good work!";
 	}
