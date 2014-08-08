@@ -20,12 +20,10 @@ public class LastManStanding extends RunsafeConfigurablePlugin
 
 		// Commands
 		Command mainCommand = new Command("lms", "Last Man Standing commands", null);
+		addComponent(mainCommand);
 
 		Command startLocationCommand = new Command("start", "Commands to manage start locations", null);
 		startLocationCommand.addSubCommand(getInstance(AddStartLocation.class));
-
 		mainCommand.addSubCommand(startLocationCommand);
-
-		addComponent(mainCommand);
 	}
 }
