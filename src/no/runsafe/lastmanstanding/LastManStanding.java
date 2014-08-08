@@ -3,6 +3,7 @@ package no.runsafe.lastmanstanding;
 import no.runsafe.framework.RunsafeConfigurablePlugin;
 import no.runsafe.framework.api.command.Command;
 import no.runsafe.framework.features.Commands;
+import no.runsafe.framework.features.Events;
 import no.runsafe.lastmanstanding.arena.Arena;
 import no.runsafe.lastmanstanding.commands.AddStartLocation;
 import no.runsafe.lastmanstanding.commands.TestCommand;
@@ -14,8 +15,8 @@ public class LastManStanding extends RunsafeConfigurablePlugin
 	{
 		// Framework features
 		addComponent(Commands.class);
+		addComponent(Events.class);
 		//addComponent(Database.class);
-		//addComponent(Events.class);
 		//addComponent(FrameworkHooks.class);
 		//addComponent(LUAScripts.class);
 		//addComponent(UniverseRegistration.class);
