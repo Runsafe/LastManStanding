@@ -11,7 +11,7 @@ import no.runsafe.lastmanstanding.arena.StartLocation;
 
 public class AddStartLocation extends PlayerAsyncCommand
 {
-	protected AddStartLocation(IScheduler scheduler, Arena arena)
+	public AddStartLocation(IScheduler scheduler, Arena arena)
 	{
 		super("add", "Add a starting location", "runsafe.lms.start.add", scheduler, new OptionalArgument("range"));
 		this.arena = arena;

@@ -7,7 +7,7 @@ import no.runsafe.framework.api.player.IPlayer;
 
 public class TestCommand extends PlayerAsyncCommand
 {
-	protected TestCommand(IScheduler scheduler)
+	public TestCommand(IScheduler scheduler)
 	{
 		super("test", "Science!", "runsafe.lms", scheduler);
 	}
