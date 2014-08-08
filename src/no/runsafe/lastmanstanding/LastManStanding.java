@@ -7,13 +7,9 @@ import no.runsafe.lastmanstanding.commands.AddStartLocation;
 
 public class LastManStanding extends RunsafeConfigurablePlugin
 {
-	//	public static IDebug Debugger = null;
-
 	@Override
 	protected void pluginSetup()
 	{
-//		Debugger = getComponent(IDebug.class);
-
 		// Framework features
 		addComponent(Commands.class);
 		//addComponent(Database.class);
