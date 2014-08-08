@@ -1,4 +1,4 @@
-package no.runsafe.lastmanstanding;
+package no.runsafe.lastmanstanding.arena;
 
 import java.util.ArrayList;
 import java.util.List;

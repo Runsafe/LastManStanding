@@ -6,8 +6,8 @@ import no.runsafe.framework.api.command.argument.IArgumentList;
 import no.runsafe.framework.api.command.argument.OptionalArgument;
 import no.runsafe.framework.api.command.player.PlayerAsyncCommand;
 import no.runsafe.framework.api.player.IPlayer;
-import no.runsafe.lastmanstanding.Arena;
-import no.runsafe.lastmanstanding.StartLocation;
+import no.runsafe.lastmanstanding.arena.Arena;
+import no.runsafe.lastmanstanding.arena.StartLocation;
 
 public class AddStartLocation extends PlayerAsyncCommand
 {

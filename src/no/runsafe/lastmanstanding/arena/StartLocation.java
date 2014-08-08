@@ -1,4 +1,4 @@
-package no.runsafe.lastmanstanding;
+package no.runsafe.lastmanstanding.arena;
 
 import no.runsafe.framework.api.ILocation;
 
