@@ -19,7 +19,7 @@ public class LastManStanding extends RunsafeConfigurablePlugin
 		//addComponent(UniverseRegistration.class);
 
 		// Commands
-		Command mainCommand = new Command("lms", "Last Man Standing commands", null);
+		Command mainCommand = new Command("lms", "Commands to control the mini-game", null);
 		addComponent(mainCommand);
 
 		Command startLocationCommand = new Command("start", "Commands to manage start locations", null);
