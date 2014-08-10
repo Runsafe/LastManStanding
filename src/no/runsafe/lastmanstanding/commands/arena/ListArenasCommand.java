@@ -11,7 +11,7 @@ import java.util.List;
 
 public class ListArenasCommand extends AsyncCommand
 {
-	protected ListArenasCommand(IScheduler scheduler, ArenaManager manager)
+	public ListArenasCommand(IScheduler scheduler, ArenaManager manager)
 	{
 		super("list", "List all available arenas", "runsafe.lms.areans.list", scheduler);
 		this.manager = manager;
