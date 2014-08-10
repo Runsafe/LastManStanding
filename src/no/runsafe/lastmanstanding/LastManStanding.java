@@ -5,7 +5,6 @@ import no.runsafe.framework.api.command.Command;
 import no.runsafe.framework.features.Commands;
 import no.runsafe.lastmanstanding.arena.ArenaManager;
 import no.runsafe.lastmanstanding.commands.AddStartLocation;
-import no.runsafe.lastmanstanding.commands.TestCommand;
 import no.runsafe.lastmanstanding.commands.arena.ListArenasCommand;
 import no.runsafe.lastmanstanding.config.Config;
 import no.runsafe.lastmanstanding.database.ArenaRepository;
@@ -32,7 +31,6 @@ public class LastManStanding extends RunsafeConfigurablePlugin
 
 		// Commands
 		Command mainCommand = new Command("lms", "Commands to control the mini-game", null);
-		mainCommand.addSubCommand(getInstance(TestCommand.class));
 		addComponent(mainCommand);
 
 		Command arenaCommand = new Command("arena", "Arena management commands", null);
