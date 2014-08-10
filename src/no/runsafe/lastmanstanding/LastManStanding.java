@@ -8,6 +8,7 @@ import no.runsafe.lastmanstanding.commands.AddStartLocation;
 import no.runsafe.lastmanstanding.commands.TestCommand;
 import no.runsafe.lastmanstanding.commands.arena.ListArenasCommand;
 import no.runsafe.lastmanstanding.config.Config;
+import no.runsafe.lastmanstanding.database.ArenaRepository;
 
 public class LastManStanding extends RunsafeConfigurablePlugin
 {
@@ -21,6 +22,9 @@ public class LastManStanding extends RunsafeConfigurablePlugin
 		//addComponent(FrameworkHooks.class);
 		//addComponent(LUAScripts.class);
 		//addComponent(UniverseRegistration.class);
+
+		// Database
+		addComponent(ArenaRepository.class);
 
 		addComponent(Config.class);
 		addComponent(ArenaManager.class);
