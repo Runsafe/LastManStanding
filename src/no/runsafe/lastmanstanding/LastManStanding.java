@@ -6,6 +6,7 @@ import no.runsafe.framework.features.Commands;
 import no.runsafe.lastmanstanding.arena.Arena;
 import no.runsafe.lastmanstanding.commands.AddStartLocation;
 import no.runsafe.lastmanstanding.commands.TestCommand;
+import no.runsafe.lastmanstanding.config.Config;
 
 public class LastManStanding extends RunsafeConfigurablePlugin
 {
@@ -20,6 +21,7 @@ public class LastManStanding extends RunsafeConfigurablePlugin
 		//addComponent(LUAScripts.class);
 		//addComponent(UniverseRegistration.class);
 
+		addComponent(Config.class);
 		addComponent(Arena.class); // Stick with one arena for now.
 
 		// Commands
