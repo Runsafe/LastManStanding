@@ -27,7 +27,7 @@ public class ArenaManager implements IServerReady
 		return arenas;
 	}
 
-	private List<Arena> arenas = new ArrayList<Arena>(0);
+	private List<Arena> arenas = new ArrayList<>(0);
 	private final ArenaRepository repository;
 	private final IConsole console;
 }

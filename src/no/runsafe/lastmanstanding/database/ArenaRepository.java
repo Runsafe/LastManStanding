@@ -5,6 +5,7 @@ import no.runsafe.framework.api.database.Repository;
 import no.runsafe.framework.api.database.SchemaUpdate;
 import no.runsafe.lastmanstanding.arena.Arena;
 
+import javax.annotation.Nonnull;
 import java.util.List;
 
 public class ArenaRepository extends Repository
@@ -14,12 +15,14 @@ public class ArenaRepository extends Repository
 		return null;
 	}
 
+	@Nonnull
 	@Override
 	public String getTableName()
 	{
 		return "lms_arenas";
 	}
 
+	@Nonnull
 	@Override
 	public ISchemaUpdate getSchemaUpdateQueries()
 	{

@@ -32,7 +32,7 @@ public class Arena
 		return enabled;
 	}
 
-	private final List<StartLocation> startLocations = new ArrayList<StartLocation>(0);
+	private final List<StartLocation> startLocations = new ArrayList<>(0);
 	private IRegion3D field;
 	private final String arenaName;
 	private boolean enabled;
