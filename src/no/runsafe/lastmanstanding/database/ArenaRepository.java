@@ -1,20 +1,11 @@
 package no.runsafe.lastmanstanding.database;
 
-import no.runsafe.framework.api.database.ISchemaUpdate;
-import no.runsafe.framework.api.database.Repository;
-import no.runsafe.framework.api.database.SchemaUpdate;
-import no.runsafe.lastmanstanding.arena.Arena;
+import no.runsafe.framework.api.database.*;
 
 import javax.annotation.Nonnull;
-import java.util.List;
 
 public class ArenaRepository extends Repository
 {
-	public List<Arena> getArenas()
-	{
-		return null;
-	}
-
 	@Nonnull
 	@Override
 	public String getTableName()
