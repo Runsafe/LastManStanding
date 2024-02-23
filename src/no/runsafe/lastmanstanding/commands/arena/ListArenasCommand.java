@@ -10,7 +10,7 @@ public class ListArenasCommand extends AsyncCommand
 {
 	public ListArenasCommand(IScheduler scheduler, ArenaManager manager)
 	{
-		super("list", "List all available arenas", "runsafe.lms.areans.list", scheduler);
+		super("list", "List all available arenas", "runsafe.lms.arenas.list", scheduler);
 		//this.manager = manager;
 	}
 
